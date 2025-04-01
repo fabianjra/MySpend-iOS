@@ -1,13 +1,13 @@
 //
-//  MySpend_iOSUITests.swift
-//  MySpend-iOSUITests
+//  MySpendUITests.swift
+//  MySpendUITests
 //
 //  Created by Fabian Rodriguez on 31/3/25.
 //
 
 import XCTest
 
-final class MySpend_iOSUITests: XCTestCase {
+final class MySpendUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

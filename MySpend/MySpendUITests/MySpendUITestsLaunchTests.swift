@@ -1,13 +1,13 @@
 //
-//  MySpend_iOSUITestsLaunchTests.swift
-//  MySpend-iOSUITests
+//  MySpendUITestsLaunchTests.swift
+//  MySpendUITests
 //
 //  Created by Fabian Rodriguez on 31/3/25.
 //
 
 import XCTest
 
-final class MySpend_iOSUITestsLaunchTests: XCTestCase {
+final class MySpendUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

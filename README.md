@@ -1,6 +1,6 @@
 Copyright 2025 Fabian Rodriguez Alvarez. Todos los derechos reservados.
 
-# MySpend-iOS
+# MySpend
 My Spend version para iOS con Core Data
 
 Se creó una lista de tareas TODO, In progress y Done en Trello: https://trello.com/b/wJz1gcrI/myspend

@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  MySpend-iOS
+//  MySpend
 //
 //  Created by Fabian Rodriguez on 31/3/25.
 //

@@ -7,62 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		1FAA8C172D9B989D00E853BF /* PBXContainerItemProxy */ = {
+		1F04A6BF2D9B9EFA008B588D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1FAA8BF92D9B989B00E853BF /* Project object */;
+			containerPortal = 1F04A6A12D9B9EF9008B588D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1FAA8C002D9B989B00E853BF;
-			remoteInfo = "MySpend-iOS";
+			remoteGlobalIDString = 1F04A6A82D9B9EF9008B588D;
+			remoteInfo = MySpend;
 		};
-		1FAA8C212D9B989D00E853BF /* PBXContainerItemProxy */ = {
+		1F04A6C92D9B9EFA008B588D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1FAA8BF92D9B989B00E853BF /* Project object */;
+			containerPortal = 1F04A6A12D9B9EF9008B588D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1FAA8C002D9B989B00E853BF;
-			remoteInfo = "MySpend-iOS";
+			remoteGlobalIDString = 1F04A6A82D9B9EF9008B588D;
+			remoteInfo = MySpend;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FAA8C012D9B989B00E853BF /* MySpend-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MySpend-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FAA8C162D9B989D00E853BF /* MySpend-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MySpend-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FAA8C202D9B989D00E853BF /* MySpend-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MySpend-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F04A6A92D9B9EF9008B588D /* MySpend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F04A6BE2D9B9EFA008B588D /* MySpendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySpendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F04A6C82D9B9EFA008B588D /* MySpendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySpendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1F04A6E72D9B9F82008B588D /* Exceptions for "MySpend" folder in "MySpend" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1F04A6A82D9B9EF9008B588D /* MySpend */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1FAA8C032D9B989B00E853BF /* MySpend-iOS */ = {
+		1F04A6AB2D9B9EF9008B588D /* MySpend */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "MySpend-iOS";
+			exceptions = (
+				1F04A6E72D9B9F82008B588D /* Exceptions for "MySpend" folder in "MySpend" target */,
+			);
+			path = MySpend;
 			sourceTree = "<group>";
 		};
-		1FAA8C192D9B989D00E853BF /* MySpend-iOSTests */ = {
+		1F04A6C12D9B9EFA008B588D /* MySpendTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "MySpend-iOSTests";
+			path = MySpendTests;
 			sourceTree = "<group>";
 		};
-		1FAA8C232D9B989D00E853BF /* MySpend-iOSUITests */ = {
+		1F04A6CB2D9B9EFA008B588D /* MySpendUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "MySpend-iOSUITests";
+			path = MySpendUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1FAA8BFE2D9B989B00E853BF /* Frameworks */ = {
+		1F04A6A62D9B9EF9008B588D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FAA8C132D9B989D00E853BF /* Frameworks */ = {
+		1F04A6BB2D9B9EFA008B588D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FAA8C1D2D9B989D00E853BF /* Frameworks */ = {
+		1F04A6C52D9B9EFA008B588D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1FAA8BF82D9B989B00E853BF = {
+		1F04A6A02D9B9EF9008B588D = {
 			isa = PBXGroup;
 			children = (
-				1FAA8C032D9B989B00E853BF /* MySpend-iOS */,
-				1FAA8C192D9B989D00E853BF /* MySpend-iOSTests */,
-				1FAA8C232D9B989D00E853BF /* MySpend-iOSUITests */,
-				1FAA8C022D9B989B00E853BF /* Products */,
+				1F04A6AB2D9B9EF9008B588D /* MySpend */,
+				1F04A6C12D9B9EFA008B588D /* MySpendTests */,
+				1F04A6CB2D9B9EFA008B588D /* MySpendUITests */,
+				1F04A6AA2D9B9EF9008B588D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1FAA8C022D9B989B00E853BF /* Products */ = {
+		1F04A6AA2D9B9EF9008B588D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FAA8C012D9B989B00E853BF /* MySpend-iOS.app */,
-				1FAA8C162D9B989D00E853BF /* MySpend-iOSTests.xctest */,
-				1FAA8C202D9B989D00E853BF /* MySpend-iOSUITests.xctest */,
+				1F04A6A92D9B9EF9008B588D /* MySpend.app */,
+				1F04A6BE2D9B9EFA008B588D /* MySpendTests.xctest */,
+				1F04A6C82D9B9EFA008B588D /* MySpendUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FAA8C002D9B989B00E853BF /* MySpend-iOS */ = {
+		1F04A6A82D9B9EF9008B588D /* MySpend */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FAA8C2A2D9B989D00E853BF /* Build configuration list for PBXNativeTarget "MySpend-iOS" */;
+			buildConfigurationList = 1F04A6D22D9B9EFA008B588D /* Build configuration list for PBXNativeTarget "MySpend" */;
 			buildPhases = (
-				1FAA8BFD2D9B989B00E853BF /* Sources */,
-				1FAA8BFE2D9B989B00E853BF /* Frameworks */,
-				1FAA8BFF2D9B989B00E853BF /* Resources */,
+				1F04A6A52D9B9EF9008B588D /* Sources */,
+				1F04A6A62D9B9EF9008B588D /* Frameworks */,
+				1F04A6A72D9B9EF9008B588D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1FAA8C032D9B989B00E853BF /* MySpend-iOS */,
+				1F04A6AB2D9B9EF9008B588D /* MySpend */,
 			);
-			name = "MySpend-iOS";
+			name = MySpend;
 			packageProductDependencies = (
 			);
-			productName = "MySpend-iOS";
-			productReference = 1FAA8C012D9B989B00E853BF /* MySpend-iOS.app */;
+			productName = MySpend;
+			productReference = 1F04A6A92D9B9EF9008B588D /* MySpend.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1FAA8C152D9B989D00E853BF /* MySpend-iOSTests */ = {
+		1F04A6BD2D9B9EFA008B588D /* MySpendTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FAA8C2D2D9B989D00E853BF /* Build configuration list for PBXNativeTarget "MySpend-iOSTests" */;
+			buildConfigurationList = 1F04A6D52D9B9EFA008B588D /* Build configuration list for PBXNativeTarget "MySpendTests" */;
 			buildPhases = (
-				1FAA8C122D9B989D00E853BF /* Sources */,
-				1FAA8C132D9B989D00E853BF /* Frameworks */,
-				1FAA8C142D9B989D00E853BF /* Resources */,
+				1F04A6BA2D9B9EFA008B588D /* Sources */,
+				1F04A6BB2D9B9EFA008B588D /* Frameworks */,
+				1F04A6BC2D9B9EFA008B588D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1FAA8C182D9B989D00E853BF /* PBXTargetDependency */,
+				1F04A6C02D9B9EFA008B588D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				1FAA8C192D9B989D00E853BF /* MySpend-iOSTests */,
+				1F04A6C12D9B9EFA008B588D /* MySpendTests */,
 			);
-			name = "MySpend-iOSTests";
+			name = MySpendTests;
 			packageProductDependencies = (
 			);
-			productName = "MySpend-iOSTests";
-			productReference = 1FAA8C162D9B989D00E853BF /* MySpend-iOSTests.xctest */;
+			productName = MySpendTests;
+			productReference = 1F04A6BE2D9B9EFA008B588D /* MySpendTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1FAA8C1F2D9B989D00E853BF /* MySpend-iOSUITests */ = {
+		1F04A6C72D9B9EFA008B588D /* MySpendUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FAA8C302D9B989D00E853BF /* Build configuration list for PBXNativeTarget "MySpend-iOSUITests" */;
+			buildConfigurationList = 1F04A6D82D9B9EFA008B588D /* Build configuration list for PBXNativeTarget "MySpendUITests" */;
 			buildPhases = (
-				1FAA8C1C2D9B989D00E853BF /* Sources */,
-				1FAA8C1D2D9B989D00E853BF /* Frameworks */,
-				1FAA8C1E2D9B989D00E853BF /* Resources */,
+				1F04A6C42D9B9EFA008B588D /* Sources */,
+				1F04A6C52D9B9EFA008B588D /* Frameworks */,
+				1F04A6C62D9B9EFA008B588D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1FAA8C222D9B989D00E853BF /* PBXTargetDependency */,
+				1F04A6CA2D9B9EFA008B588D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				1FAA8C232D9B989D00E853BF /* MySpend-iOSUITests */,
+				1F04A6CB2D9B9EFA008B588D /* MySpendUITests */,
 			);
-			name = "MySpend-iOSUITests";
+			name = MySpendUITests;
 			packageProductDependencies = (
 			);
-			productName = "MySpend-iOSUITests";
-			productReference = 1FAA8C202D9B989D00E853BF /* MySpend-iOSUITests.xctest */;
+			productName = MySpendUITests;
+			productReference = 1F04A6C82D9B9EFA008B588D /* MySpendUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1FAA8BF92D9B989B00E853BF /* Project object */ = {
+		1F04A6A12D9B9EF9008B588D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					1FAA8C002D9B989B00E853BF = {
+					1F04A6A82D9B9EF9008B588D = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					1FAA8C152D9B989D00E853BF = {
+					1F04A6BD2D9B9EFA008B588D = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 1FAA8C002D9B989B00E853BF;
+						TestTargetID = 1F04A6A82D9B9EF9008B588D;
 					};
-					1FAA8C1F2D9B989D00E853BF = {
+					1F04A6C72D9B9EFA008B588D = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 1FAA8C002D9B989B00E853BF;
+						TestTargetID = 1F04A6A82D9B9EF9008B588D;
 					};
 				};
 			};
-			buildConfigurationList = 1FAA8BFC2D9B989B00E853BF /* Build configuration list for PBXProject "MySpend-iOS" */;
+			buildConfigurationList = 1F04A6A42D9B9EF9008B588D /* Build configuration list for PBXProject "MySpend" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 1FAA8BF82D9B989B00E853BF;
+			mainGroup = 1F04A6A02D9B9EF9008B588D;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 1FAA8C022D9B989B00E853BF /* Products */;
+			productRefGroup = 1F04A6AA2D9B9EF9008B588D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1FAA8C002D9B989B00E853BF /* MySpend-iOS */,
-				1FAA8C152D9B989D00E853BF /* MySpend-iOSTests */,
-				1FAA8C1F2D9B989D00E853BF /* MySpend-iOSUITests */,
+				1F04A6A82D9B9EF9008B588D /* MySpend */,
+				1F04A6BD2D9B9EFA008B588D /* MySpendTests */,
+				1F04A6C72D9B9EFA008B588D /* MySpendUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1FAA8BFF2D9B989B00E853BF /* Resources */ = {
+		1F04A6A72D9B9EF9008B588D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FAA8C142D9B989D00E853BF /* Resources */ = {
+		1F04A6BC2D9B9EFA008B588D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FAA8C1E2D9B989D00E853BF /* Resources */ = {
+		1F04A6C62D9B9EFA008B588D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1FAA8BFD2D9B989B00E853BF /* Sources */ = {
+		1F04A6A52D9B9EF9008B588D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FAA8C122D9B989D00E853BF /* Sources */ = {
+		1F04A6BA2D9B9EFA008B588D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FAA8C1C2D9B989D00E853BF /* Sources */ = {
+		1F04A6C42D9B9EFA008B588D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1FAA8C182D9B989D00E853BF /* PBXTargetDependency */ = {
+		1F04A6C02D9B9EFA008B588D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FAA8C002D9B989B00E853BF /* MySpend-iOS */;
-			targetProxy = 1FAA8C172D9B989D00E853BF /* PBXContainerItemProxy */;
+			target = 1F04A6A82D9B9EF9008B588D /* MySpend */;
+			targetProxy = 1F04A6BF2D9B9EFA008B588D /* PBXContainerItemProxy */;
 		};
-		1FAA8C222D9B989D00E853BF /* PBXTargetDependency */ = {
+		1F04A6CA2D9B9EFA008B588D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FAA8C002D9B989B00E853BF /* MySpend-iOS */;
-			targetProxy = 1FAA8C212D9B989D00E853BF /* PBXContainerItemProxy */;
+			target = 1F04A6A82D9B9EF9008B588D /* MySpend */;
+			targetProxy = 1F04A6C92D9B9EFA008B588D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1FAA8C282D9B989D00E853BF /* Debug */ = {
+		1F04A6D02D9B9EFA008B588D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +345,7 @@
 			};
 			name = Debug;
 		};
-		1FAA8C292D9B989D00E853BF /* Release */ = {
+		1F04A6D12D9B9EFA008B588D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,21 +401,22 @@
 			};
 			name = Release;
 		};
-		1FAA8C2B2D9B989D00E853BF /* Debug */ = {
+		1F04A6D32D9B9EFA008B588D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MySpend-iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MySpend/Preview Content\"";
 				DEVELOPMENT_TEAM = RJNWKKQ88P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_FILE = MySpend/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -410,7 +424,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fabian.MySpend-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabian.MySpend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -421,21 +435,22 @@
 			};
 			name = Debug;
 		};
-		1FAA8C2C2D9B989D00E853BF /* Release */ = {
+		1F04A6D42D9B9EFA008B588D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MySpend-iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MySpend/Preview Content\"";
 				DEVELOPMENT_TEAM = RJNWKKQ88P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_FILE = MySpend/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fabian.MySpend-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabian.MySpend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -454,7 +469,7 @@
 			};
 			name = Release;
 		};
-		1FAA8C2E2D9B989D00E853BF /* Debug */ = {
+		1F04A6D62D9B9EFA008B588D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,16 +479,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fabian.MySpend-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabian.MySpendTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySpend-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySpend-iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySpend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySpend";
 			};
 			name = Debug;
 		};
-		1FAA8C2F2D9B989D00E853BF /* Release */ = {
+		1F04A6D72D9B9EFA008B588D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,16 +498,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fabian.MySpend-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabian.MySpendTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySpend-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySpend-iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySpend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MySpend";
 			};
 			name = Release;
 		};
-		1FAA8C312D9B989D00E853BF /* Debug */ = {
+		1F04A6D92D9B9EFA008B588D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -500,16 +515,16 @@
 				DEVELOPMENT_TEAM = RJNWKKQ88P;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fabian.MySpend-iOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabian.MySpendUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MySpend-iOS";
+				TEST_TARGET_NAME = MySpend;
 			};
 			name = Debug;
 		};
-		1FAA8C322D9B989D00E853BF /* Release */ = {
+		1F04A6DA2D9B9EFA008B588D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -517,55 +532,55 @@
 				DEVELOPMENT_TEAM = RJNWKKQ88P;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fabian.MySpend-iOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabian.MySpendUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MySpend-iOS";
+				TEST_TARGET_NAME = MySpend;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FAA8BFC2D9B989B00E853BF /* Build configuration list for PBXProject "MySpend-iOS" */ = {
+		1F04A6A42D9B9EF9008B588D /* Build configuration list for PBXProject "MySpend" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FAA8C282D9B989D00E853BF /* Debug */,
-				1FAA8C292D9B989D00E853BF /* Release */,
+				1F04A6D02D9B9EFA008B588D /* Debug */,
+				1F04A6D12D9B9EFA008B588D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FAA8C2A2D9B989D00E853BF /* Build configuration list for PBXNativeTarget "MySpend-iOS" */ = {
+		1F04A6D22D9B9EFA008B588D /* Build configuration list for PBXNativeTarget "MySpend" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FAA8C2B2D9B989D00E853BF /* Debug */,
-				1FAA8C2C2D9B989D00E853BF /* Release */,
+				1F04A6D32D9B9EFA008B588D /* Debug */,
+				1F04A6D42D9B9EFA008B588D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FAA8C2D2D9B989D00E853BF /* Build configuration list for PBXNativeTarget "MySpend-iOSTests" */ = {
+		1F04A6D52D9B9EFA008B588D /* Build configuration list for PBXNativeTarget "MySpendTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FAA8C2E2D9B989D00E853BF /* Debug */,
-				1FAA8C2F2D9B989D00E853BF /* Release */,
+				1F04A6D62D9B9EFA008B588D /* Debug */,
+				1F04A6D72D9B9EFA008B588D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FAA8C302D9B989D00E853BF /* Build configuration list for PBXNativeTarget "MySpend-iOSUITests" */ = {
+		1F04A6D82D9B9EFA008B588D /* Build configuration list for PBXNativeTarget "MySpendUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FAA8C312D9B989D00E853BF /* Debug */,
-				1FAA8C322D9B989D00E853BF /* Release */,
+				1F04A6D92D9B9EFA008B588D /* Debug */,
+				1F04A6DA2D9B9EFA008B588D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1FAA8BF92D9B989B00E853BF /* Project object */;
+	rootObject = 1F04A6A12D9B9EF9008B588D /* Project object */;
 }
